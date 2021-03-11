@@ -1,5 +1,5 @@
 
-# Responsive restaurant reservation website
+# Responsive restaurant website
 
 ### Technology i have used
 - Bootstrap 4
