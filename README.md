@@ -10,4 +10,4 @@
 
 👉🏻 [Demo](https://shohan-ch.github.io/Bootstrap-Resturant/)
 
-![Demo](img/demo.gif)
+![Demo](img/Hnet-image.gif)
