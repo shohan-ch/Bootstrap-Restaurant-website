@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700');
+
+p{
+    font-size: 18px;
+}
+
+
+.padding{
+    padding: 60px;
+}
+.banner{
+    position: relative;
+    background: url(img/two.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 800px;
+    background-attachment: fixed;
+}
+.banner-social,.banner-address{
+    position: absolute;
+    top: 50%;
+    transform: translateY(700px);
+    color: white;
+}
+
+.banner-middle {
+    position: absolute;
+    transform: translate(250px,230px);
+    
+    color: white
+}
+
+.banner-two{
+    background: url(img/topmusic.jpg);
+    background-size: cover;
+    max-width: 100%;
+    height: 592px;
+    background-attachment: fixed;
+    
+}
+
+.menu-link{
+    margin-bottom: 60px;
+}
+
+
+
+@media (max-width:992px){
+    .banner-middle {
+        position: absolute;
+        transform: translate(40px,230px);
+        
+        color: white
+    }
+
+}
+
+@media (max-width:762px){
+    .banner-middle {
+        position: absolute;
+        transform: translate(0px,230px);
+        
+        color: white
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.active1{
+    background-color: yellow;
+}
+
+/*------------------------Flickity Style-------------------------------------*/
+
+.carousel-cell{
+    width: 25%;
+    margin-right: 7px;
+    height: 255px;
+   
+    
+}
+
+.carousel-cell-image{
+    display: block;
+    border-radius: 6px;
+   
+
+    
+}
+
+.img1{
+    background: url(img/dish1.jpg);
+    background-size: cover;
+    max-width: 100%;
+    height: 255px;
+    border-radius: 6px;
+    position: relative;
+
+}
+.img2{
+    background: url(img/dish2.jpg);
+    background-size: cover;
+    max-width: 100%;
+    height: 255px;
+    border-radius: 6px;
+}
+.img3{
+    background: url(img/dish3.jpg);
+    background-size: cover;
+    max-width: 100%;
+    height: 255px;
+    border-radius: 6px;
+}
+
+.img4{
+    background: url(img/dish4.jpg);
+    background-size: cover;
+    max-width: 100%;
+    height: 255px;
+    border-radius: 6px;
+
+}
+
+.fli-p{
+    position: relative;
+    font-size:25px; 
+    font-weight: 700px;
+    font-family: 'Oswald', sans-serif;
+   
+    position: relative;
+    color: white;
+    top: 170px;
+    left: 10px;
+    
+
+}
+
+.fli-p-d{
+    position: relative;
+    font-size:25px; 
+    font-weight: 700px;
+    position: relative;
+    color: white;
+    top: 170px;
+    right: 30px;
+    font-family: 'Oswald', sans-serif;
+    
+    
+
+}
+.carousel-cell:hover{
+    opacity: 0.8;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.flickity-prev-next-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background: #333;
+  }
+
+
+
+
+
+/*----------------------------Flickity two Style------------------*/
+
+
+
+.carousel-cellx{
+    width: 100%;
+
+}
+/*--------------------------------------*/
+
+.event-img{
+    background: url(img/music.jpg);
+    background-size: cover;
+    height: 606px;
+    max-width: 100%;
+}
+
+
+
+.below{
+    background-color: #150F0A;
+    position: relative;
+    transform: translateY(-5px);
+    padding: 50px;
+
+   
+}
+
+footer p{
+    color: #775B3F;
+    font-size: 14px;
+}
+.gallery-top{
+    margin-bottom: 70px;
+
+
+}
+.gallery-title h3{
+    font-size: 44px;
+    padding: 4px;
+}
+.gallery-title p{
+    font-size: 15px;
+}
+.news{
+background-color: #F0F0F0;
+}
+
+.fa-facebook,.fa-instagram,.fa-twitter{
+    font-size: 20px;
+    padding:10px; 
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover{
+    transform: scale(1.8);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.navbar-toggler-icon{
+   border-radius: 5;
+   background-color: transparent!important ;
+}
+
+
+.glass-one:before {
+    display: block;
+    width: 30px;
+    margin: 10px 15px;
+    content: "";
+    border-top: 3px solid #f5a637;
+}
+
+
+
