@@ -8,6 +8,6 @@
 - lightbox js plugin
 - flickity js
 
-👉🏻 [Demo](https://shohan-ch.github.io/Bootstrap-Restaurant/)
+👉🏻 [Demo](https://shohan-ch.github.io/Bootstrap-Restaurant-website/)
 
 ![Demo](img/Hnet-image.gif)
